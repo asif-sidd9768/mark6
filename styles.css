@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{
+    --primary-color: #9CA3AF;
+    --secondary-color:#1F2937;
+    --width-break: 600px;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+}
+
+.navigation{
+    text-align: center;
+    color: white;
+    background-color: var(--primary-color);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+.navigation .text{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: xx-large;
+}
+.navigation .img{
+    vertical-align:middle;
+    max-width: 10%;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+.input{
+    padding: 0.5rem 0.5rem;
+    font-style: italic;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.button:hover{
+    background-color: var(--secondary-color);
+}
+
+.button{
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    background-color: var(--primary-color);
+    font-size: x-large;
+    font-style: italic;
+    padding: 1rem 2.5rem;
+    margin-top: 2rem;
+}
+.button .img{
+    max-width: 70px;
+}
+.button .text{
+    color: white;
+    vertical-align: bottom;
+}
+.output{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.footer{
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color: var(--primary-color);
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+.footer .text{
+    max-width: 600px;
+    margin: auto;
+}
